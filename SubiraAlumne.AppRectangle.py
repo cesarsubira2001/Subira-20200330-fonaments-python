@@ -1,8 +1,15 @@
-from SubiraAlumneRectangle import SubiraAlumneRectangle
+from SubiraAlumneRectangle import Rectangle
+
+
 
 base = int()
 alssada = int()
 
+rect1 = int(input("Posa un numero como base1: "))
+rect1 = int(input("Posa un numero como altura1: ")) 
 
-base = int(input("Posa un numero como base: "))
-alssada = int(input("Posa un numero como altura: "))
+
+
+Rectangle.calcularArea(rect1)
+
+
