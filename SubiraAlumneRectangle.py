@@ -21,12 +21,12 @@ class Rectangle:
 
     # Metodes
 
-    def calcularPerimetre(base, alssada):
-        print("El Perímetre es: " + str(2 * (alssada + base)))
+    def calcularPerimetre(rect1):
+        print("El Perímetre es: " + str(2 * (rect1 + rect1)))
        
 
-    def calcularArea(base, alssada):
-        print("l'area es: ", str(alssada * base))
+    def calcularArea(rect1):
+        print("l'area es: ", str(rect1 * rect1))
 
     def __str__(self):
         return (f"Base: {self.base}\nAlssasda: {self.alssada}")
